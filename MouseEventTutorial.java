@@ -11,7 +11,7 @@ public class MouseEventTutorial
   public MouseEventTutorial()
   {
       frame = new JFrame();
-      frame.setSize( 1600, 1600 );
+      frame.setSize( 1, 1000 );
       frame.setVisible(true);
       frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
       xMouse = 0;
