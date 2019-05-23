@@ -9,6 +9,7 @@ public class ship {
     int bottomCol;
     int bottomRow;
     int len;
+    boolean hit = false;
     
     public ship(int r, int c, int bC, int bR, int l){
         topRow = r;
@@ -24,7 +25,10 @@ public class ship {
         
     }
     
-    
+    public void isHit()
+    {
+        hit = true;
+    }
     
     
 }
